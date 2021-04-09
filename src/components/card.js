@@ -1,3 +1,5 @@
+import { text } from "msw/lib/types/context";
+
 const Card = (article) => {
   let card = document.createElement('div');
   let headline = document.createElement('div');
@@ -12,8 +14,11 @@ const Card = (article) => {
   imgContainer.classList.add('img-container');
 
   headline.textContent = 'headline';
-  imgContainer
+  img.src = (authorPhoto)
   
+  spanA.textContent = `by ${authorName}`
+
+  addEventListener.add
 
   // TASK 5
   // ---------------------
