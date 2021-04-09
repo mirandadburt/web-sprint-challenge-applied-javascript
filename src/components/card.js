@@ -1,4 +1,20 @@
 const Card = (article) => {
+  let card = document.createElement('div');
+  let headline = document.createElement('div');
+  let author = document.createElement('div');
+  let imgContainer = document.createElement('div');
+  let img = document.createElement('img')
+  //img goes here 
+  let spanA = document.createElement('span')
+  card.classList.add('card');
+  headline.classList.add('headline');
+  author.classList.add('author');
+  imgContainer.classList.add('img-container');
+
+  headline.textContent = 'headline';
+  imgContainer
+  
+
   // TASK 5
   // ---------------------
   // Implement this function, which should return the markup you see below.
